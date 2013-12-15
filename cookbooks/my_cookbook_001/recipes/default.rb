@@ -6,3 +6,12 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+template '/tmp/message' do
+source 'message.erb'
+variables(
+hi: 'Hallo',
+world: 'Welt',
+from: node['fqdn']
+)
+end

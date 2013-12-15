@@ -1,4 +1,4 @@
-apache2 Cookbook
+My Website Cookbook
 ================
 [![Build Status](https://secure.travis-ci.org/opscode-cookbooks/apache2.png?branch=master)](http://travis-ci.org/opscode-cookbooks/apache2)
 

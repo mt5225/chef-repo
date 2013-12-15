@@ -13,5 +13,6 @@ variables(
 hi: 'Hallo',
 world: 'Welt',
 from: node['fqdn']
+user: node['username']
 )
 end

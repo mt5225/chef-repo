@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chef
 .chef/*.pem
 .chef/encrypted_data_bag_secret
@@ -50,3 +51,12 @@ Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
+=======
+.rake_test_cache
+
+###
+# Ignore Chef key files and secrets
+###
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+>>>>>>> e8b1e951f8cfbcadcc330fbdffff67e2729f1dc5

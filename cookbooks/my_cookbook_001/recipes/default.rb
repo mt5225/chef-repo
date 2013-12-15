@@ -12,7 +12,7 @@ source 'message.erb'
 variables(
 hi: 'Hallo',
 world: 'Welt',
-from: node['fqdn']
+from: node['fqdn'],
 user: node['username']
 )
 end
